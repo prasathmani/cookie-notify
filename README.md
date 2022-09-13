@@ -1,4 +1,4 @@
-# cookie-notify
+# Cookie Notify
 In simple way add personalized cookie info and link to wordpress site.
 
 ## Description
