@@ -1,0 +1,46 @@
+.ccpp-cookie-info-container {
+    position: fixed; 
+    z-index: 50; 
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.ccpp-cookie-info {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.ccpp-cookie-info a {
+    color: inherit;
+}
+
+.ccpp-buttons {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.ccpp-cookie-accept-button, .ccpp-cookie-privacy-policy {
+    padding: 5px 15px;
+    border-radius: 4px;
+    /* background-color: rgb(220, 241, 255); */
+    border: 2px solid transparent;
+    margin: 5px 0;
+}
+
+.ccpp-cookie-accept-button:hover, .ccpp-cookie-privacy-policy:hover {
+    cursor: pointer;
+}
+
+.ccpp-cookie-accept-button:focus, .ccpp-cookie-privacy-policy:focus {
+    border: 2px solid rgb(143, 143, 143);
+    outline: none;
+}
+
+.button-text {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
